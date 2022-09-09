@@ -15,10 +15,21 @@ public class WhateverTest {
         String what = "what";
 
         //Act
-        String result = whatever.returnWhat(what);
+        String result = whatever.returnWhat(what, true);
 
         //Assert
         assertEquals(what, result);
+    }
+
+    @Test
+    public void callPrintWhatever() {
+        // Arrange
+        String what = "what";
+
+        //Act
+         whatever.printWhat(what);
+
+        //Assert
     }
 
 }
