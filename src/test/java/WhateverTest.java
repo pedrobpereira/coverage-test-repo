@@ -27,7 +27,7 @@ public class WhateverTest {
         String what = "what";
 
         //Act
-         whatever.printWhat(what);
+         whatever.printWhat(what, true);
 
         //Assert
     }
