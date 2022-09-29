@@ -1,3 +1,4 @@
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
@@ -9,6 +10,7 @@ public class WhateverTest {
 
     private Whatever whatever = new Whatever();
 
+    @Ignore
     @Test
     public void returnWhatReturnsInput() {
         // Arrange
@@ -21,6 +23,7 @@ public class WhateverTest {
         assertEquals(what, result);
     }
 
+    @Ignore
     @Test
     public void callPrintWhatever() {
         // Arrange
