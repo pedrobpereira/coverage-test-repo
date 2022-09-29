@@ -6,6 +6,8 @@ public class Whatever {
             return what;
         }
         else {
+            System.out.println("stuff");
+            System.out.println("stuff");
             return "nothing";
         }
     }

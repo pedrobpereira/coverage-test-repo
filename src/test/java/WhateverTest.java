@@ -10,7 +10,6 @@ public class WhateverTest {
 
     private Whatever whatever = new Whatever();
 
-    @Ignore
     @Test
     public void returnWhatReturnsInput() {
         // Arrange
