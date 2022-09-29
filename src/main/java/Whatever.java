@@ -9,12 +9,4 @@ public class Whatever {
             return "nothing";
         }
     }
-
-    public void printWhat(String what, boolean whatIf) {
-        if (whatIf && what.isEmpty()) {
-        System.out.println(what);
-        } else {
-            System.out.println("nothing");
-        }
-    }
 }
