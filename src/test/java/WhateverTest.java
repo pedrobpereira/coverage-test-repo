@@ -10,7 +10,6 @@ public class WhateverTest {
 
     private Whatever whatever = new Whatever();
 
-    @Ignore
     @Test
     public void returnWhatReturnsInput() {
         // Arrange
@@ -23,7 +22,18 @@ public class WhateverTest {
         assertEquals(what, result);
     }
 
-    @Ignore
+    @Test
+    public void returnWhatReturnsInput2() {
+        // Arrange
+        String what = "what";
+
+        //Act
+        String result = whatever.returnWhat(what, false);
+
+        //Assert
+        assertEquals("nothing", result);
+    }
+
     @Test
     public void callPrintWhatever() {
         // Arrange
