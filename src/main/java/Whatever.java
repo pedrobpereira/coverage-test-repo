@@ -8,6 +8,9 @@ public class Whatever {
         else {
             System.out.println("stuff");
             System.out.println("stuff");
+            System.out.println("stuff");
+            System.out.println("stuff");
+            System.out.println("stuff");
             return "nothing";
         }
     }
