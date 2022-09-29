@@ -1,4 +1,3 @@
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
@@ -20,18 +19,5 @@ public class WhateverTest {
 
         //Assert
         assertEquals(what, result);
-    }
-
-    @Ignore
-    @Test
-    public void returnWhatReturnsInput2() {
-        // Arrange
-        String what = "what";
-
-        //Act
-        String result = whatever.returnWhat(what, false);
-
-        //Assert
-        assertEquals("nothing", result);
     }
 }
