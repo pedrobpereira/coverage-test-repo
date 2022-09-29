@@ -35,17 +35,4 @@ public class WhateverTest {
         //Assert
         assertEquals("nothing", result);
     }
-
-    @Ignore
-    @Test
-    public void callPrintWhatever() {
-        // Arrange
-        String what = "what";
-
-        //Act
-         whatever.printWhat(what, true);
-
-        //Assert
-    }
-
 }
