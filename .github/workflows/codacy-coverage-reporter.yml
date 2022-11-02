@@ -1,0 +1,19 @@
+name: codacy-coverage-reporter
+
+on: ["push"]
+
+jobs:
+  codacy-coverage-reporter:
+    runs-on: ubuntu-latest
+    name: codacy-coverage-reporter
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run codacy-coverage-reporter
+        uses: codacy/codacy-coverage-reporter-action@v1
+        env: 
+          CODACY_API_BASE_URL: https://app.dev.codacy.org
+        with:
+          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
+          # or
+          # api-token: ${{ secrets.CODACY_API_TOKEN }}
+          coverage-reports: target/surefire-reports/*.xml

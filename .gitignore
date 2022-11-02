@@ -2,7 +2,9 @@
 *.iml
 *~
 .vscode
-target/
+!target/
+target/*
+!target/surefire-reports
 ExtentReports/
 teste.xml
 tesng.xml
