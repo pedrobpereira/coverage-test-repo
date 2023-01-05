@@ -15,8 +15,6 @@ public class Whatever {
         }
         else {
 
-            if (what.equals("whatever")) return "whatever";
-
             return "nothing";
         }
     }
