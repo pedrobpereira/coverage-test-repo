@@ -8,14 +8,9 @@ public class Whatever {
             System.out.println();
             System.out.println();
 
-
-
-
             return what;
         }
         else {
-
-            if (what.equals("something")) return "something";
 
             return "nothing";
         }
