@@ -12,6 +12,9 @@ public class Whatever {
         }
         else {
 
+            if (what.equals("something")) return "something";
+            if (what.equals("whatever")) return "whatever";
+
             return "nothing";
         }
     }
