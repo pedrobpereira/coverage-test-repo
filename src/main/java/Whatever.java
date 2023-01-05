@@ -14,6 +14,9 @@ public class Whatever {
             return what;
         }
         else {
+
+            if (what.equals("something")) return "something";
+
             return "nothing";
         }
     }
