@@ -24,4 +24,14 @@ public class Whatever {
 
             return what;
     }
+
+    public String returnWhat3(String what, boolean whatIf) {
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+
+        return what;
+    }
 }
