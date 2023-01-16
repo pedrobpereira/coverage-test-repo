@@ -20,4 +20,13 @@ public class WhateverTest {
         //Assert
         assertEquals(what, result);
     }
+
+    @Test
+    public void returnNothingReturnsInput() {
+        //Act
+        String result = whatever.returnWhat("nothing", true);
+
+        //Assert
+        assertEquals("nothing", result);
+    }
 }
