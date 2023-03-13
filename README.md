@@ -1,3 +1,6 @@
-# coverage-test-repo - whatever
+# Test repository for coverage - Humble beginnings
 
-[![Codacy Badge](https://app.dev.codacy.org/project/badge/Grade/112ad8fe5ae64ef59dba86b1693c1ac3)](https://www.dev.codacy.org/gh/pedrobpereira/coverage-test-repo/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pedrobpereira/coverage-test-repo&amp;utm_campaign=Badge_Grade)
+Getting coverage reports:
+1. Start by getting the coverage report from `cobertura` by running the following command: `mvn cobertura:cobertura -Dcobertura.report.format=xml`
+2. Then, extract the file `target/site/cobertura/coverage.xml` and name it `cobertura.xml`. You can add it to the root of your project.
+3. Lastly, send the reports to Codacy using the following command: `bash <(curl -Ls https://coverage.codacy.com/get.sh)`
