@@ -1,0 +1,5 @@
+---
+engines:
+  coverage:
+    exclude_paths:
+      - "src/main/java/whatever.java"
