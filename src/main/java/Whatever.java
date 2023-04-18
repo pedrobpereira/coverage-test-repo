@@ -2,6 +2,8 @@ public class Whatever {
 
     public String returnWhat(String what, boolean whatIf) {
 
+        String what2 = null;
+
         if (whatIf) {
             System.out.println();
             System.out.println();

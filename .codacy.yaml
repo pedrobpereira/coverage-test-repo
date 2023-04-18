@@ -3,3 +3,4 @@ engine:
   coverage:
     exclude_paths:
       - "src/main/java/Whatever.java"
+      - "whatevrfirelewke"
