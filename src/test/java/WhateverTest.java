@@ -17,6 +17,7 @@ public class WhateverTest {
         //Act
         String result = whatever.returnWhat(what, true);
 
+
         //Assert
         assertEquals(what, result);
     }
