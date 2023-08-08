@@ -26,6 +26,7 @@ public class WhateverTest {
         // Arrange
         String what = "what";
 
+
         //Act
         String result = whatever.returnWhat(what, false);
 
