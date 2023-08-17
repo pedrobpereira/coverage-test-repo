@@ -28,29 +28,4 @@ public class Whatever2 {
         }
     }
 
-    public String returnWhat3(String what, boolean whatIf) {
-
-        if (whatIf) {
-            System.out.println();
-            System.out.println();
-
-            return what;
-        }
-        else {
-            return "nothing";
-        }
-    }
-
-    public String returnWhat4(String what, boolean whatIf) {
-
-        if (whatIf) {
-            System.out.println();
-            System.out.println();
-
-            return what;
-        }
-        else {
-            return "nothing";
-        }
-    }
 }
