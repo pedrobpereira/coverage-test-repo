@@ -12,4 +12,8 @@ public class Whatever {
             return "nothing";
         }
     }
+
+    public String returnWhat2(String what, boolean whatIf) {
+            return "nothing";
+    }
 }
