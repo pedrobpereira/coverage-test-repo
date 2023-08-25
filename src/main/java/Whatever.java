@@ -6,10 +6,10 @@ public class Whatever {
             System.out.println();
             System.out.println();
 
-            return what;
+            return "what";
         }
         else {
-            return "nothing";
+            return "something";
         }
     }
 }
