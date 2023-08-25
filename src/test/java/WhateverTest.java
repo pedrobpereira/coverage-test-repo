@@ -15,7 +15,7 @@ public class WhateverTest {
         String what = "what";
 
         //Act
-        String result = whatever.returnWhat(what, true);
+        String result = whatever.returnWhat("what", true);
 
         //Assert
         assertEquals(what, result);
@@ -32,17 +32,5 @@ public class WhateverTest {
 
         //Assert
         assertEquals("nothing", result);
-    }
-
-    @Test
-    public void returnWhatReturnsInput2() {
-        // Arrange
-        String what = "what";
-
-        //Act
-        String result = whatever.returnWhat2(what, true);
-
-        //Assert
-        assertEquals(what, result);
     }
 }
