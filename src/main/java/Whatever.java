@@ -21,6 +21,7 @@ public class Whatever {
         else {
             return "nothing";
         }
+
     }
 
     public String returnWhat3(String what, boolean whatIf) {
