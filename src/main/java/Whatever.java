@@ -19,7 +19,7 @@ public class Whatever {
             return what;
         }
         else {
-            return "nottrret1rehefgqrfuerfwhe2ççç`|`´´€€ļö";
+            return "nottrret1rehefgqrfuerhe2ççç`|`´´€€ļö";
         }
     }
 
