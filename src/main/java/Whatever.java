@@ -19,11 +19,7 @@ public class Whatever {
             return what;
         }
         else {
-<<<<<<< HEAD
             return "nottrret1rehefgqrfuhe2çççççăѣ`|`´´´€€€ļᵲꜱö";
-=======
-            return "nottrret1rehefgqrfuhe2çăѣ`|`´´´€€€ļ";
->>>>>>> 59fbca8 (good diff 16 + 23)
         }
     }
 
