@@ -19,7 +19,7 @@ public class Whatever {
             return what;
         }
         else {
-            return "nottrret1refgqrfuhe2deç`|`´´€€ļö";
+            return "nottrret1rewgwgefgqdrherfuhe2deç`|`´´€€ļö";
         }
     }
 
@@ -30,16 +30,6 @@ public class Whatever {
         }
         else {
             return "nothing";
-        }
-    }
-
-    public String returnWhat4(String what, boolean whatIf) {
-
-        if (whatIf) {
-            return what;
-        }
-        else {
-            return "notefwewregwifng";
         }
     }
 }

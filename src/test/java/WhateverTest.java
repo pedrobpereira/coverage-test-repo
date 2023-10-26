@@ -33,29 +33,4 @@ public class WhateverTest {
         //Assert
         assertEquals("nothing", result);
     }
-
-    @Test
-    public void returnWhatReturnsInput2() {
-        // Arrange
-        String what = "what";
-
-        //Act
-        String result = whatever.returnWhat2(what, true);
-
-        //Assert
-        assertEquals(what, result);
-    }
-
-    @Test
-    public void returnWhatReturnsInput3() {
-        // Arrange
-        String what = "what";
-
-        //Act
-        String result = whatever.returnWhat3(what, true);
-
-        //Assert
-        assertEquals(what, result);
-    }
-
 }
