@@ -27,6 +27,8 @@ public class Whatever {
         }
         else {
             System.out.println();
+            System.out.println();
+            System.out.println();
             return "nothing";
         }
     }
