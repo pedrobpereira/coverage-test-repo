@@ -5,6 +5,8 @@ public class Whatever {
         if (whatIf) {
             System.out.println();
             System.out.println();
+            System.out.println();
+            System.out.println();
 
             return what;
         }
@@ -24,6 +26,9 @@ public class Whatever {
             return what;
         }
         else {
+            System.out.println();
+            System.out.println();
+            System.out.println();
             return "nothing";
         }
     }
