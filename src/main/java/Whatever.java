@@ -4,8 +4,6 @@ public class Whatever {
 
         if (whatIf) {
             System.out.println();
-            System.out.println();
-            System.out.println();
 
             return what;
         }
