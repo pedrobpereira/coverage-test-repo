@@ -16,7 +16,10 @@ public class Whatever {
 
     public String returnWhat2(String what, boolean whatIf) {
 
+        String stuff = null;
+
         if (whatIf) {
+            System.out.println();
             System.out.println();
             System.out.println();
             System.out.println();
@@ -25,6 +28,7 @@ public class Whatever {
             return what;
         }
         else {
+            System.out.println();
             System.out.println();
             return "nothing";
         }
