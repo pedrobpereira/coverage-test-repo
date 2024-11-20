@@ -6,6 +6,7 @@ public class Whatever4 {
 
         if (whatIf) {
             System.out.println();
+            System.out.println();
 
             return what + "";
         }
