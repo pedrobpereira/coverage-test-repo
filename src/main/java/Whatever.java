@@ -18,8 +18,6 @@ public class Whatever {
 
     public String returnWhat2(String what, boolean whatIf) {
 
-        String whatever2 = "";
-
         Integer EEEEE = null;
 
         if (whatIf) {
@@ -30,6 +28,10 @@ public class Whatever {
             return what;
         }
         else {
+            String whever = "";
+            String whever1 = "";
+            String whever2 = "";
+
             System.out.println();
             return "nothing";
         }
