@@ -29,6 +29,8 @@ public class Whatever {
         }
         else {
             String whever = "";
+            String whever1 = "";
+            String whever2 = "";
 
             System.out.println();
             return "nothing";
