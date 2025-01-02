@@ -20,6 +20,7 @@ public class Whatever {
 
         Integer EEEEE = null;
         Integer EEEEE2 = null;
+        Integer EEEEE3 = null;
 
         if (whatIf) {
             System.out.println();
