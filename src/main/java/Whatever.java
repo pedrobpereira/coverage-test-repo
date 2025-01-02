@@ -22,6 +22,7 @@ public class Whatever {
         Integer EEEEE2 = null;
         Integer EEEEE3 = null;
         Integer EEEEE4 = null;
+        Integer EEEEE5 = null;
 
         if (whatIf) {
             System.out.println();
