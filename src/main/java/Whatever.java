@@ -25,6 +25,8 @@ public class Whatever {
         Integer EEEEE5 = null;
         Integer EEEEE6 = null;
         Integer EEEEE7 = null;
+        Integer EEEEE8 = null;
+
 
         if (whatIf) {
             System.out.println();
