@@ -19,6 +19,7 @@ public class Whatever {
     public String returnWhat2(String what, boolean whatIf) {
 
         Integer EEEEE = null;
+        Integer EEEEE2 = null;
 
         if (whatIf) {
             System.out.println();
