@@ -21,10 +21,6 @@ public class Whatever {
         Integer EEEEE = null;
         Integer EEEEE2 = null;
         Integer EEEEE3 = null;
-        Integer EEEEE4 = null;
-        Integer EEEEE5 = null;
-        Integer EEEEE6 = null;
-        Integer EEEEE7 = null;
 
 
         if (whatIf) {
