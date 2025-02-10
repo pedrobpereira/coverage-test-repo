@@ -21,6 +21,7 @@ public class Whatever {
         Integer EEEEE = null;
         Integer EEEEE2 = null;
         Integer EEEEE3 = null;
+        Integer EEEEE4 = null;
 
 
         if (whatIf) {
