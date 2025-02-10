@@ -4,6 +4,9 @@ public class Whatever {
 
         String whatever = null;
 
+        String whatever2 = null;
+        String whatever3 = null;
+
         if (whatIf) {
             System.out.println();
             System.out.println();
@@ -28,8 +31,6 @@ public class Whatever {
         Integer EEEEE8 = null;
         Integer EEEEE9 = null;
         Integer EEEEE10 = null;
-        Integer EEEEE11 = null;
-        Integer EEEEE12 = null;
 
 
         if (whatIf) {
