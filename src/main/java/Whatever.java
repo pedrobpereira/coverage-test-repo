@@ -22,6 +22,14 @@ public class Whatever {
         Integer EEEEE2 = null;
         Integer EEEEE3 = null;
         Integer EEEEE4 = null;
+        Integer EEEEE5 = null;
+        Integer EEEEE6 = null;
+        Integer EEEEE7 = null;
+        Integer EEEEE8 = null;
+        Integer EEEEE9 = null;
+        Integer EEEEE10 = null;
+        Integer EEEEE11 = null;
+        Integer EEEEE12 = null;
 
 
         if (whatIf) {
