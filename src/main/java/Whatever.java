@@ -3,7 +3,6 @@ public class Whatever {
     public String returnWhat(String what, boolean whatIf) {
 
         String returnWhat = "";
-        String returnWhat2 = "";
 
         if (whatIf) {
             System.out.println();
