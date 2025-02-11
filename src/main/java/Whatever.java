@@ -4,6 +4,8 @@ public class Whatever {
 
         String whatever = null;
 
+        String whatever2 = null;
+
         if (whatIf) {
             System.out.println();
             System.out.println();
