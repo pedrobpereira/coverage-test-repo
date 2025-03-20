@@ -1,3 +1,5 @@
+package something;
+
 public class Whatever {
 
     public String returnWhat(String what, boolean whatIf) {
