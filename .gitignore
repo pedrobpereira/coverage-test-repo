@@ -30,3 +30,4 @@ localtesting.xml
 *.log
 reportportal.lock
 reportportal.sync
+.cursor/
