@@ -8,8 +8,6 @@ public class Whatever {
             System.out.println();
             System.out.println();
             System.out.println();
-            System.out.println();
-            System.out.println();
 
             return what;
         }
@@ -21,7 +19,6 @@ public class Whatever {
     public String returnWhat2(String what, boolean whatIf) {
 
         if (whatIf) {
-            System.out.println();
             System.out.println();
             System.out.println();
 
