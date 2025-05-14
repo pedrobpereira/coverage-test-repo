@@ -20,6 +20,8 @@ public class Whatever {
 
     public String returnWhat2(String what, boolean whatIf) {
 
+        int wwiwiwiw;
+
         if (whatIf) {
             System.out.println();
             System.out.println();
