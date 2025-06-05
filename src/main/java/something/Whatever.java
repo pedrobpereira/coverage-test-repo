@@ -21,6 +21,7 @@ public class Whatever {
     public String returnWhat2(String what, boolean whatIf) {
 
         int wwiwiwiw;
+        int wwiwiwiw2;
 
         if (whatIf) {
             System.out.println();
