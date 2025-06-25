@@ -2,6 +2,9 @@ package something;
 
 public class Whatever {
 
+    private int wwiwiwiw1;
+    private int wwiwiwiw2;
+
     public String returnWhat(String what, boolean whatIf) {
 
         if (whatIf) {
@@ -22,8 +25,12 @@ public class Whatever {
 
         int wwiwiwiw;
         int wwiwiwiw2;
+        int wwiwiwiw3;
+        int wwiwiwiw4;
 
         if (whatIf) {
+            System.out.println();
+            System.out.println();
             System.out.println();
             System.out.println();
             System.out.println();
