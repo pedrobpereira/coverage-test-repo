@@ -8,8 +8,6 @@ public class Whatever {
             System.out.println();
             System.out.println();
             System.out.println();
-            System.out.println();
-            System.out.println();
 
             return what;
         }
@@ -24,7 +22,6 @@ public class Whatever {
         int wwiwiwiw2;
 
         if (whatIf) {
-            System.out.println();
             System.out.println();
             System.out.println();
 
