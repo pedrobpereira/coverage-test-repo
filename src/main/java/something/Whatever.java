@@ -22,6 +22,7 @@ public class Whatever {
 
         int wwiwiwiw;
         int wwiwiwiw2;
+        int wwiwiwiw3;
 
         if (whatIf) {
             System.out.println();
