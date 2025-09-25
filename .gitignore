@@ -30,3 +30,6 @@ localtesting.xml
 *.log
 reportportal.lock
 reportportal.sync
+
+# Ignore IntelliJ AI rules
+.junie/guidelines.md

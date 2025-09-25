@@ -1,21 +1,26 @@
 package something;
 
-public class Whatever {
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.Serializable;
+
+public class Whatever implements Serializable {
+
+    private java.io.FileInputStream stream; // bad - FileInputStream is not serializable
+
+    public void setStream(FileInputStream stream) {
+        this.stream = stream;
+    }
 
     public String returnWhat(String what, boolean whatIf) {
 
         if (whatIf) {
-            System.out.println();
-            System.out.println();
-            System.out.println();
-            System.out.println();
-            System.out.println();
 
-            return what;
         }
         else {
             return "nothing";
         }
+        return what;
     }
 
     public String returnWhat2(String what, boolean whatIf) {
@@ -34,5 +39,9 @@ public class Whatever {
             System.out.println();
             return "nothing";
         }
+    }
+
+    void writeObject(java.io.ObjectOutputStream out) throws IOException {
+        // custom serialization code
     }
 }
