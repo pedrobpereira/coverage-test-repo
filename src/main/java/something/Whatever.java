@@ -41,7 +41,7 @@ public class Whatever implements Serializable {
         }
     }
 
-    void writeObject(java.io.ObjectOutputStream out) throws IOException {
-        // custom serialization code
+    public void readObject(java.io.ObjectInputStream in) throws IOException, ClassNotFoundException {
+        // custom deserialization code
     }
 }
