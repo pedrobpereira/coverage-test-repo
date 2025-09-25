@@ -1,5 +1,9 @@
 package something;
 public abstract class Whatever6 {
         @SuppressWarnings({})
-        private void foo() {}
+        private void foo() {
+            int sum = 10
+                    + 20
+                    + 50;
+        }
     }
