@@ -3,7 +3,7 @@ public abstract class Whatever6 {
         @SuppressWarnings({})
         private void foo() {
             int sum = 10
-                    + 20
+                    + 2
                     + 50;
         }
     }
