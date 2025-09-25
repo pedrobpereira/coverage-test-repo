@@ -1,9 +1,5 @@
 package something;
-
+@SuppressWarnings({})
 public abstract class Whatever6 {
-    public Object couldBeAbstract() {
-        // Should be abstract method ?
-        return null;
+        private void foo() {} // NOPMD
     }
-
-}
