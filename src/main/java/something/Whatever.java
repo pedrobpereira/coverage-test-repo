@@ -20,6 +20,7 @@ public class Whatever implements Serializable {
         else {
             return "nothing";
         }
+
         return what;
     }
 
