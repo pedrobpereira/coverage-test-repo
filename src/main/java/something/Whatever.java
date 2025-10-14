@@ -18,7 +18,7 @@ public class Whatever implements Serializable {
 
         }
         else {
-            return "nothing + 1";
+            return "nothing";
         }
 
         return what;
