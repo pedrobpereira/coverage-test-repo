@@ -33,3 +33,6 @@ reportportal.sync
 
 # Ignore IntelliJ AI rules
 .junie/guidelines.md
+
+#Ignore cursor AI rules
+.cursor/rules/codacy.mdc
