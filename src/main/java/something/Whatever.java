@@ -15,7 +15,8 @@ public class Whatever implements Serializable {
     public String returnWhat(String what, boolean whatIf) {
 
         if (whatIf) {
-
+            System.out.println();
+            System.out.println();
         }
         else {
             return "nothing";
