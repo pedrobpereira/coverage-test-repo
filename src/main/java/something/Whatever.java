@@ -6,12 +6,6 @@ import java.io.Serializable;
 
 public class Whatever implements Serializable {
 
-    private java.io.FileInputStream stream; // bad - FileInputStream is not serializable
-
-    public void setStream(FileInputStream stream) {
-        this.stream = stream;
-    }
-
     public String returnWhat(String what, boolean whatIf) {
 
         if (whatIf) {
@@ -28,6 +22,7 @@ public class Whatever implements Serializable {
 
         int wwiwiwiw;
         int wwiwiwiw2;
+        int wwiwiwiw3;
 
         if (whatIf) {
             System.out.println();
