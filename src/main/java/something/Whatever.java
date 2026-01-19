@@ -12,6 +12,7 @@ public class Whatever implements Serializable {
 
         }
         else {
+            System.out.println();
             return "nothing";
         }
 
