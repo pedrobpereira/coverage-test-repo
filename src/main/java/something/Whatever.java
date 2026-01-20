@@ -9,6 +9,7 @@ public class Whatever implements Serializable {
     public String returnWhat(String what, boolean whatIf) {
 
         System.out.println();
+        System.out.println();
 
         if (whatIf) {
 
