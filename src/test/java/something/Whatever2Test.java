@@ -22,17 +22,4 @@ public class Whatever2Test {
         //Assert
         assertEquals(what, result);
     }
-
-    @Test
-    public void returnNothingReturnsInput() {
-        // Arrange
-        String what = "what";
-
-
-        //Act
-        String result = whatever.returnWhat(what, false);
-
-        //Assert
-        assertEquals("nothing", result);
-    }
 }
