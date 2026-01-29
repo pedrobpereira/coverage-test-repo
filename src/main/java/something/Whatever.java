@@ -12,7 +12,27 @@ public class Whatever implements Serializable {
         System.out.println();
 
         if (whatIf) {
-
+            if (whatIf) {
+                if (whatIf) {
+                    if (whatIf) {
+                        if (whatIf) {
+                            if (whatIf) {
+                                if (whatIf) {
+                                    if (whatIf) {
+                                        if (whatIf) {
+                                            if (whatIf) {
+                                                if (whatIf) {
+                                                    System.out.println(what);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         else {
             System.out.println();
