@@ -23,6 +23,7 @@ public class Whatever implements Serializable {
                                             if (whatIf) {
                                                 if (whatIf) {
                                                     System.out.println(what);
+                                                    System.out.println(what);
                                                 }
                                             }
                                         }
@@ -35,6 +36,7 @@ public class Whatever implements Serializable {
             }
         }
         else {
+            System.out.println();
             System.out.println();
             System.out.println();
             return "nothing";
@@ -57,6 +59,7 @@ public class Whatever implements Serializable {
             return what;
         }
         else {
+            System.out.println();
             System.out.println();
             return "nothing";
         }
