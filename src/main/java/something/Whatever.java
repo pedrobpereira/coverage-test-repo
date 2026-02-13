@@ -61,6 +61,7 @@ public class Whatever implements Serializable {
         else {
             System.out.println();
             System.out.println();
+            System.out.println();
             return "nothing";
         }
     }
