@@ -12,6 +12,7 @@ public class Whatever2 {
             return what;
         }
         else {
+            System.out.println();
             return "nothing";
         }
     }
