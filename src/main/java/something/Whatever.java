@@ -24,6 +24,8 @@ public class Whatever implements Serializable {
                                                 if (whatIf) {
                                                     System.out.println(what);
                                                     System.out.println(what);
+                                                    System.out.println(what);
+                                                    System.out.println(what);
                                                 }
                                             }
                                         }
@@ -51,6 +53,7 @@ public class Whatever implements Serializable {
         int wwiwiwiw2;
         int wwiwiwiw3;
         int wwiwiwiw4;
+        int wwiwiwiw5;
 
         if (whatIf) {
             System.out.println();
